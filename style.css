@@ -1,22 +1,36 @@
 .contenitore1{
-    content: "";
     height:100px;
     width: 100%;
     margin:1.5% 0;
     background-color: rgb(221, 94, 233);    
 }
+.contenitore1::after{
+              content: "";
+              clear: both;
+              display: table;
+}
+
 .contenitore2{
-    content: "";
 height:400px;
 width: 100%;
 margin-bottom:1.5%;
 background-color: rgb(221, 200, 107);    
+}
+.contenitore2::after{
+    content: "";
+    clear: both;
+    display: table;
 }
 .contenitore3{
     width: 100%;
     height:600px;
     background-color: rgb(39, 104, 223);
     clear: both;
+}
+.contenitore3::after{
+    content: "";
+    clear: both;
+    display: table;
 }
 .top{
     width: 100%;
