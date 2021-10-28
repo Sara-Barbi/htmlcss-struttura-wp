@@ -1,3 +1,6 @@
+body{
+    margin: 20px 100px 30px 100px;
+}
 .contenitore1{
     height:100px;
     width: 100%;
@@ -43,13 +46,13 @@
     background-color: rgb(161, 216, 233);
     height: 485px;
     box-sizing: border-box;  
-    width: 23%;
+    width: 24%;
 }
 
 .centrale{
     float: left; 
     background-color: rgb(161, 216, 233);
-    margin:0 2%;
+    margin:0 1%;
     width: 50%;
     height: 485px;
     box-sizing: border-box;
@@ -58,7 +61,7 @@
     float: left;
     height: 485px;
     background-color: rgb(161, 216, 233);
-    width: 23%;
+    width: 24%;
     box-sizing: border-box;
 }
 .lato1, .lato2, .centrale{
